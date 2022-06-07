@@ -1,0 +1,179 @@
+body {
+  background-color: #f3f5fc
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 16px;
+}
+
+header {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#hombre {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+
+.hombre-ahorcado {
+  width: 100vw;
+  text-align: center;
+  margin-top:  4rem;
+  margin-bottom: 2rem;
+  height: 16.75rem;
+}
+
+.adivinado {
+  text-align: center;
+  color: #002462;
+  font-size: 1.8rem;
+}
+
+.letra {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.adivinada {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-bottom: solid 1px #002462;
+  margin-left: 0.4rem;
+  line-height: 4.5rem;
+}
+
+.errado {
+  text-align:  center;
+  margin-top: 1rem;
+  color: #242d34;
+}
+
+.errada {
+  margin-left: 1rem;
+}
+
+[type="button"] {
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid 1px #0a3871;
+  color: #0a3871;
+  background: inherit;
+  cursor: pointer;
+}
+
+.btn-azul {
+  background-color: #0a3871;
+  color: #fff;
+  border-color: #000;
+}
+
+.botones {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+
+#inicio {
+
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 750px;
+    top: 402px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #0a3871;
+    border-color: #0a3871;    
+    font-family: 'Inter';
+    font-size: 20px;
+    color: white;
+}
+
+#agregar{
+    position: absolute;
+    width: 285px;
+    height: 80px;
+    left: 765px;
+    top: 570px;
+    border-radius: 20px;
+    border-color: #0a3871;
+    background: none;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #0a3871;
+}
+
+.titulo-principal{
+    position: absolute;
+    width: 299px;
+    height: 48px;
+    left: 500px;
+    top: 256px;
+    color: #0a3871;
+    font-family: 'Inter';
+    font-size: 32px;
+}
+
+.ingreso-palabra{
+    position: relative;
+    left: 650px;
+    top: 300px;
+    background: white;
+    border: none;
+    font-family: 'Inter';
+    font-size: 40px;
+    
+    
+}
+
+.regla{
+    position: relative;
+    left: 500px;
+    top: 500px;
+    font-family: 'Inter';
+    font-size: 12px;
+    
+}
+
+.guardar{
+    width: 332px;
+    height: 67px;
+    position: relative;
+    top: 500px;
+    left: 500px;
+    border-radius: 20px;
+    border-color: #0a3871;
+    background-color: #0a3871;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: white;
+}
+
+.cancelar{
+    width: 332px;
+    height: 67px;
+    position: relative;
+    top: 500px;
+    left: 580px;
+    border-radius: 20px;
+    border-color: #0a3871;
+    background: none;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #0a3871;
+}
+
+footer {
+  margin-top: 680px;
+  margin-left: 728px;
+  font-style: italic;
+}
